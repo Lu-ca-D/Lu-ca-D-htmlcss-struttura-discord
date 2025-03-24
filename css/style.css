@@ -1,0 +1,94 @@
+{
+    margin: 
+    padding: 
+}
+
+.container {
+    width: 80%;
+    max-width: 1000;
+    margin: 0 auto;
+
+    border: 1px solid black
+}
+
+
+.flex {
+    display: flex;
+}
+
+[class^="col-"] {
+    border: 2px solid green;
+
+}
+
+
+.col-70 {
+    width: 70%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.py-20 {
+    padding: 20px;
+    padding-bottom: 20px;
+}
+.bg-gray {
+    background-color: gray;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    height: 80px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.logo-block {
+    width: 30%;
+}
+
+.actions-block {
+    width: 30%;
+    text-align: right;
+}
+
+.hero-section {
+    padding: 40px;
+    background-color: burlywood;
+}
+
+.hero-content {
+    width: 70%;
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: rgb(133, 198, 153);
+}
+
+footer {
+    background-color: darkgoldenrod;
+}
